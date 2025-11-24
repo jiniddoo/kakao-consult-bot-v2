@@ -1,9 +1,15 @@
 {
   "name": "kakao-consult-bot-v2",
   "version": "1.0.0",
-  "private": true,
+  "description": "Kakao OpenBuilder skill bot deployed on Vercel.",
+  "type": "module",
+  "main": "api/bot.js",
   "scripts": {
+    "dev": "vercel dev",
     "start": "node api/bot.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {}
 }

@@ -1,10 +1,18 @@
 {
   "version": 2,
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "routes": [
     {
       "src": "/bot",
-      "dest": "/api/bot.js",
-      "methods": ["POST"]
+      "dest": "/api/bot.js"
+    },
+    {
+      "src": "/api/bot",
+      "dest": "/api/bot.js"
     }
   ]
 }
