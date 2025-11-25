@@ -1,17 +1,1 @@
-{
-  "name": "kakao-consult-bot-v2",
-  "version": "1.0.0",
-  "private": true,
-  "main": "index.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
-  },
-  "engines": {
-    "node": "20.x"
-  },
-  "dependencies": {
-    "express": "^4.19.2"
-  }
-}
+{}
