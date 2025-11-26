@@ -7,10 +7,11 @@ module.exports = (req, res) => {
   const question = params.question || "미입력";
 
   const summary =
-    `지역: ${region}\n` +
-    `장법: ${method}\n` +
-    `종교: ${religion}\n` +
-    `질문: ${question}\n\n` +
+    `📌 선택하신 정보는 아래와 같습니다:\n` +
+    `• 지역: ${region}\n` +
+    `• 장법: ${method}\n` +
+    `• 종교: ${religion}\n` +
+    `• 질문: ${question}\n\n` +
     `잠시만 기다려주시면 상담사가 안내해드립니다.`;
 
   res.json({
